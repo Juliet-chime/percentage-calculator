@@ -1,38 +1,37 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merienda:wght@700&family=Staatliches&display=swap');
+
+body{
+  background: rgba(167, 160, 106, 0.7);
+}
+
+.container{
+/* border: solid; */
+margin: 20vh 0px 0px 0px;
+}
+
+.container h1{
   text-align: center;
+  font-family: 'Merienda', cursive;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bodycontd{
+  width: 400px;
+  border: 3px dashed;
+  text-align: center;
+  padding: 70px 0px;
+  margin: auto;
+  background: rgba(241, 139, 139, 0.2);
+  border-radius: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bodycontd .numberinput{
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(230, 225, 225, 0.952);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bodycontd .numberinput:focus{
+outline: none;
 }
